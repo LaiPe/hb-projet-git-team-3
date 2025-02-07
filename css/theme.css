@@ -3,3 +3,46 @@
     --couleur-theme-div-1: #A9B5DF;
     --couleur-theme-corps: #FFF2F2;
 }
+
+body {
+    background-color: var(--couleur-theme-corps);
+}
+
+header {
+    height: 90px;
+    background-color: var(--couleur-theme);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main h1 {
+    font-size: 2.5rem;
+}
+
+main article {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+main article h2 {
+    font-size: 1.5rem;
+    width: 100%;
+} 
+
+main article p {
+    width: 70%;
+    margin-right: 2rem;
+}
+
+main article img {
+    width: 30%;
+}
+img {
+    max-width: 250px;
+}
